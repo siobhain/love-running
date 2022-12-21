@@ -7,8 +7,12 @@
 body {
     font-family: lato sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 }
-h1 h2 {
+
+/* header and logo  */
+
+h1, h2 {
     font-family: oswald sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -17,4 +21,16 @@ h1 h2 {
 #logo {
     float: left;
     font-size: 280%;
+} 
+
+/* navigation menu */
+
+#menu {
+    font-size 110%;
+    letter-spacing: 4px;
+}
+#menu li {
+    float: right;
+    list-style-type: none; 
+    margin-right: 30px;
 }
