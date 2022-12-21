@@ -4,33 +4,56 @@
     padding: 0;
     border: none;
 }
+
 body {
-    font-family: lato sans-serif;
+    font-family: Lato sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
-/* header and logo  */
+/* headings and logo  */
 
-h1, h2 {
-    font-family: oswald sans-serif;
+h1, 
+h2 {
+    font-family: Oswald sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
+
 #logo {
     float: left;
     font-size: 280%;
 } 
 
-/* navigation menu */
+/* navigation menu & links */
 
 #menu {
     font-size 110%;
     letter-spacing: 4px;
 }
+
+#menu, 
+#logo {
+    line-height: 75px; /*For horizonal alignment of large logo and small menu*/
+}
+
 #menu li {
-    float: right;
-    list-style-type: none; 
+    float: right;   
+    list-style-type: none; /* gets rid of bullet*/
     margin-right: 30px;
 }
+
+#menu a {
+    text-decoration: none; /*remove underline for hyperlinks*/
+    color: inherit; /* from parent/ancestor -body in this case*/
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a; /* underline when hover*/
+}
+
+.active {
+    border-style: groove;
+  /*  border: 1px solid #3a3a3a; /* visual CLUE which page is active */
+}  
