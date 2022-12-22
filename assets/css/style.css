@@ -24,6 +24,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 } 
 
 /* navigation menu & links */
@@ -110,5 +111,30 @@ h2 {
     position: absolute; /* so long as parent is relative ie hero-outer*/
 }
 
+/*Club Ethos About */
 
+/*section with 3 divs*/
+#club-about {
+    height:600; /* same size as hero*/
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: aqua;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: sienna;
+}
+ 
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: skyblue;
 }
