@@ -57,3 +57,11 @@ h2 {
     border-style: groove;
   /*  border: 1px solid #3a3a3a; /* visual CLUE which page is active */
 }  
+
+/* Hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center;
+}
