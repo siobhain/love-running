@@ -60,8 +60,27 @@ h2 {
 
 /* Hero image */
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;   /* so it deos not cover logo*/
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
