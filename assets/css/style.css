@@ -313,20 +313,18 @@ footer {
 
      .left-about-heading, 
      .right-about-heading {
-        width: inherit;
+        width: inherit; /* ie the 90%*/
      }
 
      .left-about-heading h2,
      .right-about-heading h2 {
-        width: 100%;
+        width: 100%;    /* use 100% of the 90% I assume*/
         text-align: center;
      }
      
    .left-about-heading p,
     .right-about-heading p {
         text-align: center;
-        padding: 0 20px;
+        padding: 0 20px;    /* 0 top and ottom and 20px left and right */
     }
 
-
-@media
