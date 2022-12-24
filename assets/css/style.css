@@ -223,6 +223,8 @@ hr {
 }
 
 /* footer*/
+
+
 footer {
     height: 150px;
 }
@@ -239,4 +241,17 @@ footer {
     margin: 1%;
     padding: 5%;
     /* color: #3a3a3a; */
+}
+
+/* Gallery */
+
+#photos {
+    clear: both;    /*clear from heading*/
+    line-height: 0; /* so no hotizontal gaps */
+    column-count: 4;
+    column-gap: 0; /* so no vertical gaps between columns*/
+}
+
+#photos img {
+    width: 100%; /*image fills column space*/
 }
